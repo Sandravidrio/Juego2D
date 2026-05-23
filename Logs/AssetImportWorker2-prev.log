@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tomra" at "2026-05-23T17:26:45.8755596Z"
 Built from '6000.4/staging' branch; Version is '6000.4.7f1 (f3c3c4248748) revision 15975364'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tomra" at "2026-05-23T19:26:24.1709389Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'es' Physical Memory: 16013 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-23T17:26:45Z
+Date: 2026-05-23T19:26:24Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.7f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/tomra/Desktop/videojuego/Juego2D
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-58672
+62405
 -licensingIpc
 LicenseClient-tomra
 -force-d3d12
@@ -68,12 +68,12 @@ C:/Users/tomra/Desktop/videojuego/Juego2D
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [26100]  Target information:
+Player connection [25040]  Target information:
 
-Player connection [26100]  * "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 3344125219 [EditorId] 3344125219 [Version] 1048832 [Id] WindowsEditor(7,Sandy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25040]  * "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 3265757897 [EditorId] 3265757897 [Version] 1048832 [Id] WindowsEditor(7,Sandy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26100] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26100] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25040] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25040] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 24.36 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 12.14 ms, found 5 plugins.
 Initialize engine version: 6000.4.7f1 (f3c3c4248748)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/tomra/Desktop/videojuego/Juego2D/Assets
@@ -103,59 +103,58 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010472 seconds.
+Registered in 0.004614 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-tomra"
+[Licensing::IpcConnector] LicenseClient-tomra channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tomra-6000.4.7" at "2026-05-23T19:26:28.7137975Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 29348, path: "C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              2f53eb4839b444e490749838fd143471
+  Correlation Id:          a8dd5b41376a80c0780a5b768eabbfe5
+  External correlation Id: 3357606979962810705
+  Machine Id:              e8mHQ7GaNQpZ2NAAIpjmLVsGdd8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tomra-6000.4.7" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tomra-6000.4.7-notifications" at "2026-05-23T19:26:28.7385317Z"
+[Licensing::Module] Licensing Background thread has ended after 4.57s
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.876 seconds
-Domain Reload Profiling: 4245ms
-	BeginReloadAssembly (565ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (158ms)
-	RebuildNativeTypeToScriptingClass (53ms)
-	initialDomainReloadingComplete (286ms)
-	LoadAllAssembliesAndSetupDomain (1300ms)
-		LoadAssemblies (552ms)
-		AnalyzeDomain (1264ms)
-			TypeCache.Refresh (1259ms)
-				TypeCache.ScanAssembly (1208ms)
-	FinalizeReload (1883ms)
+- Finished resetting the current domain, in  0.943 seconds
+Domain Reload Profiling: 2735ms
+	BeginReloadAssembly (426ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (295ms)
+	LoadAllAssembliesAndSetupDomain (913ms)
+		LoadAssemblies (422ms)
+		AnalyzeDomain (885ms)
+			TypeCache.Refresh (878ms)
+				TypeCache.ScanAssembly (783ms)
+	FinalizeReload (945ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (231ms)
-			BeforeProcessingInitializeOnLoad (375ms)
-			ProcessInitializeOnLoadAttributes (556ms)
-			ProcessInitializeOnLoadMethodAttributes (393ms)
+			InitializePlatformSupportModulesInManaged (118ms)
+			BeforeProcessingInitializeOnLoad (248ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-tomra"
-[Licensing::IpcConnector] LicenseClient-tomra channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tomra-6000.4.7" at "2026-05-23T17:26:55.340066Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 25908, path: "C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.1+9fbee8e
-  Session Id:              f58920a0124d4ae29a40d4e23063f24a
-  Correlation Id:          48e97362716487e0abe4bdb8a48cd98d
-  External correlation Id: 3135725864144921556
-  Machine Id:              e8mHQ7GaNQpZ2NAAIpjmLVsGdd8=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tomra-6000.4.7" (connect: 0.00s, validation: 0.01s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tomra-6000.4.7-notifications" at "2026-05-23T17:26:55.3917926Z"
-[Licensing::Module] Licensing Background thread has ended after 9.52s
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -200,82 +199,89 @@ Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Un
 Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Refreshing native plugins compatible for Editor in 11.15 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.14 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 10.07 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 5.08 ms, found 5 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.387 seconds
-Domain Reload Profiling: 7245ms
-	BeginReloadAssembly (719ms)
-		DisableScriptedObjects (23ms)
-		CreateAndSetChildDomain (102ms)
-	RebuildCommonClasses (144ms)
-	RebuildNativeTypeToScriptingClass (49ms)
-	initialDomainReloadingComplete (290ms)
-	LoadAllAssembliesAndSetupDomain (2654ms)
-		LoadAssemblies (1799ms)
-		AnalyzeDomain (1247ms)
-			TypeCache.Refresh (884ms)
-				TypeCache.ScanAssembly (830ms)
-			BuildScriptInfoCaches (312ms)
-			ResolveRequiredComponents (46ms)
-	FinalizeReload (3389ms)
+- Finished resetting the current domain, in  1.750 seconds
+Domain Reload Profiling: 3729ms
+	BeginReloadAssembly (389ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (193ms)
+	LoadAllAssembliesAndSetupDomain (1319ms)
+		LoadAssemblies (933ms)
+		AnalyzeDomain (582ms)
+			TypeCache.Refresh (401ms)
+				TypeCache.ScanAssembly (365ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1751ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			BeforeProcessingInitializeOnLoad (622ms)
-			ProcessInitializeOnLoadAttributes (1377ms)
-			ProcessInitializeOnLoadMethodAttributes (667ms)
-			AfterProcessingInitializeOnLoad (35ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (347ms)
+			ProcessInitializeOnLoadAttributes (650ms)
+			ProcessInitializeOnLoadMethodAttributes (278ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 10.42 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.45 ms, found 5 plugins.
 Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7267 unused Assets / (5.8 MB). Loaded Objects now: 8093.
-Memory consumption went from 163.4 MB to 157.7 MB.
-Total: 25.402800 ms (FindLiveObjects: 1.288300 ms CreateObjectMapping: 0.887600 ms MarkObjects: 16.317200 ms  DeleteObjects: 6.899200 ms)
+Unloading 7268 unused Assets / (6.1 MB). Loaded Objects now: 8094.
+Memory consumption went from 163.4 MB to 157.3 MB.
+Total: 18.233400 ms (FindLiveObjects: 1.276700 ms CreateObjectMapping: 1.083600 ms MarkObjects: 10.536100 ms  DeleteObjects: 5.331100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 207508.865878 seconds.
-  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
-  importAddress: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dbe19281382a3e8995912d52f727ee13') in 0.6083359 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5285b60d45be39b0bb3d181ac37a0f22 DependenciesID=569fe538af1919a04a29214cab1aee5d StaticDependenciesID=390246813e5a97337dad4fd198d0f6b3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 214678.490323 seconds.
+  path: Assets/CamaraJugador.cs
+  importAddress: Guid(87e0b02a63c44a44c8aa010be3fcf1c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CamaraJugador.cs using Guid(87e0b02a63c44a44c8aa010be3fcf1c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8f471902fef7cc93ec3faeeb3a616f6a') in 0.1710969 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7d5d599f3ac37efc5306ba0b77c8777 DependenciesID=036dc67d53066563c4a81b2be4407c73 StaticDependenciesID=b61c99f968791d2c24584803e61ba0f4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000092 seconds.
+  Time since last request: 0.000038 seconds.
   path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
   importAddress: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '853c12d1b9947832b25e62e7846f3c74') in 0.0437717 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fad41c5a8004985c0a2a6f7e413c2913 DependenciesID=72b3b7b00eca09804c68e575e95afec0 StaticDependenciesID=d7cb73ec8ba78d14e7595f85be6fa845 
+Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd55ba5da5b78803992e2265155f8b0ef') in 0.0364611 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd9d4ceb3a1dc92d8edba62128bc7d16 DependenciesID=72b3b7b00eca09804c68e575e95afec0 StaticDependenciesID=d7cb73ec8ba78d14e7595f85be6fa845 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Settings/UniversalRP.asset
-  importAddress: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4447c0d38b5c52bcfaae72b11e92a745') in 0.197054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9d9e4188d5556442ded633c1a03d09b DependenciesID=4419a24eecab02abc11f165f9ded715f StaticDependenciesID=8466dba4919e2ba47eaff3b4b6b72be3 
+  Time since last request: 0.000126 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c39bb4cf6da963ec9531f742d395f510') in 0.0216589 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3963f61247941fe09618d80de3f126f7 DependenciesID=4e4751cd71eefab7a1730138b4ea0710 StaticDependenciesID=46f37e767015f2c7a56b64a344b9f42a 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000093 seconds.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Movimiento del jugador.cs
+  importAddress: Guid(308357614a2b3114f8d6f9240a6316db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Movimiento del jugador.cs using Guid(308357614a2b3114f8d6f9240a6316db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e8b4befdc61d5a564711d0b844237632') in 0.0372154 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54a4ad64b18a50832085e6c1887ad74d DependenciesID=e2917c703550f828e98889c9c4eefb24 StaticDependenciesID=8321de2de48c5664dc7fe177d54a97ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
   path: Assets/DefaultVolumeProfile.asset
   importAddress: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e6484508c703d58de468b8b401089909') in 0.0365194 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc05d834ed45b8d511830bee80c64b0d DependenciesID=c719cee263e5323c78b9116333aca381 StaticDependenciesID=d50bc633a58f5d696eece60dd156fe8f 
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '70604cdac9714a1105f8b4eda087b265') in 0.0370591 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f75eaed7f40bbcdcf3cfd1f8b46356b DependenciesID=c719cee263e5323c78b9116333aca381 StaticDependenciesID=d50bc633a58f5d696eece60dd156fe8f 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

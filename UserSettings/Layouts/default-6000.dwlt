@@ -720,15 +720,15 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 79040
+    - m_Data: 37502
     m_LastClickedEntityId:
-      m_Data: 79040
+      m_Data: 37502
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Movimiento del jugador
-      m_OriginalName: Movimiento del jugador
+      m_Name: Disparo
+      m_OriginalName: Disparo
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -736,7 +736,7 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 37502
+        m_Data: 46992
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -849,9 +849,9 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 79040
+      - m_Data: 37502
       m_LastClickedID:
-        m_Data: 79040
+        m_Data: 0
       m_ExpandedIDs:
       - m_Data: -62204
       - m_Data: -61322

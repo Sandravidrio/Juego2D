@@ -22,6 +22,15 @@ public class MovimientoJugador : MonoBehaviour
             rb.linearVelocity.y
         );
 
+        if (movimiento > 0)
+        {
+            transform.localScale = new Vector3(0.8f, 1.5f, 1);
+        }
+        else if (movimiento < 0)
+        {
+            transform.localScale = new Vector3(-0.8f, 1.5f, 1);
+        }
+
         if (Input.GetKeyDown(KeyCode.Space) && estaEnSuelo)
         {
             rb.linearVelocity = new Vector2(
