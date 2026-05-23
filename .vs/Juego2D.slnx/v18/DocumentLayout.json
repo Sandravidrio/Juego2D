@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\tomra\\desktop\\videojuego\\juego2d\\assets\\camarajugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\camarajugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\tomra\\desktop\\videojuego\\juego2d\\assets\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CamaraJugador.cs",
+              "DocumentMoniker": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\CamaraJugador.cs",
+              "RelativeDocumentMoniker": "Assets\\CamaraJugador.cs",
+              "ToolTip": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\CamaraJugador.cs",
+              "RelativeToolTip": "Assets\\CamaraJugador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T18:24:56.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Movimiento del jugador.cs",
               "DocumentMoniker": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\Movimiento del jugador.cs",
               "RelativeDocumentMoniker": "Assets\\Movimiento del jugador.cs",
@@ -30,12 +47,11 @@
               "RelativeToolTip": "Assets\\Movimiento del jugador.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAkwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T16:51:54.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T16:51:54.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Disparo.cs",
               "DocumentMoniker": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\Disparo.cs",
               "RelativeDocumentMoniker": "Assets\\Disparo.cs",
