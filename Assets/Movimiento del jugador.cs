@@ -16,11 +16,18 @@ public class MovimientoJugador : MonoBehaviour
     void Update()
     {
         float movimiento = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(movimiento * velocidad, rb.linearVelocity.y);
+
+        rb.linearVelocity = new Vector2(
+            movimiento * velocidad,
+            rb.linearVelocity.y
+        );
 
         if (Input.GetKeyDown(KeyCode.Space) && estaEnSuelo)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaSalto);
+            rb.linearVelocity = new Vector2(
+                rb.linearVelocity.x,
+                fuerzaSalto
+            );
         }
     }
 
