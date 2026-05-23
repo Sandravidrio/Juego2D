@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Movimiento del jugador.cs" />
+    <Compile Include="Assets\Disparo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
