@@ -50,7 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CamaraJugador.cs" />
+    <Compile Include="Assets\FinalNivel.cs" />
     <Compile Include="Assets\Movimiento del jugador.cs" />
+    <Compile Include="Assets\Monedas.cs" />
     <Compile Include="Assets\Disparo.cs" />
   </ItemGroup>
   <ItemGroup>
