@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\tomra\\desktop\\videojuego\\juego2d\\assets\\controlmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\controlmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\tomra\\desktop\\videojuego\\juego2d\\assets\\finalnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\finalnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\tomra\\desktop\\videojuego\\juego2d\\assets\\monedas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\monedas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ControlMenu.cs",
+              "DocumentMoniker": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\ControlMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\ControlMenu.cs",
+              "ToolTip": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\ControlMenu.cs",
+              "RelativeToolTip": "Assets\\ControlMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T03:04:36.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FinalNivel.cs",
+              "DocumentMoniker": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\FinalNivel.cs",
+              "RelativeDocumentMoniker": "Assets\\FinalNivel.cs",
+              "ToolTip": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\FinalNivel.cs",
+              "RelativeToolTip": "Assets\\FinalNivel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T02:13:40.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Monedas.cs",
               "DocumentMoniker": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\Monedas.cs",
               "RelativeDocumentMoniker": "Assets\\Monedas.cs",
@@ -38,12 +72,11 @@
               "RelativeToolTip": "Assets\\Monedas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T01:14:53.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T01:14:53.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CamaraJugador.cs",
               "DocumentMoniker": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\CamaraJugador.cs",
               "RelativeDocumentMoniker": "Assets\\CamaraJugador.cs",
@@ -55,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Movimiento del jugador.cs",
               "DocumentMoniker": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\Movimiento del jugador.cs",
               "RelativeDocumentMoniker": "Assets\\Movimiento del jugador.cs",
@@ -67,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Disparo.cs",
               "DocumentMoniker": "C:\\Users\\tomra\\Desktop\\videojuego\\Juego2D\\Assets\\Disparo.cs",
               "RelativeDocumentMoniker": "Assets\\Disparo.cs",
